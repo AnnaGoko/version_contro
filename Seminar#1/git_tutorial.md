@@ -30,4 +30,32 @@ git commit -m "message"
 >+ fix: implement correct loading data from youtube
 >+ fix: change layout for video items to fix bugs
 ***
-
+```
+git log
+```
+`— вывод на экран истории всех коммитов с их хеш-кодами`
+```
+git checkout
+```
+`— переход от одного коммита к другому`
+```
+git checkout
+```
+`— вернуться к актуальному состоянию и продолжить работу`
+```
+git checkout master
+```
+`— увидеть разницу между текущим файлом и закоммиченным файлом`
+```
+git commit --amend -m 'message'
+```
+`— изменение последнего коммита`
+```
+mkdir 
+```
+`— создание новой директории`
+```
+history
+```
+`— все введенные когда-либо в терминал команды`
+***
