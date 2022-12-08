@@ -18,18 +18,6 @@ git add
 git commit -m "message"
 ```
 `— создание коммита`
-### Нейминг комитов:
-***
-1. **init:** - используется для начала проекта/таска
->+ init: start youtube-task
->+ init: start mentor-dashboard task
-2. **feat:** - это реализованная новая функциональность из технического задания (добавил поддержку зумирования, добавил footer, добавил карточку продукта).  
->+	feat: add basic page layout
->+  feat: implement search box 
-3. **fix:** - исправил ошибку в ранее реализованной функциональности. 
->+ fix: implement correct loading data from youtube
->+ fix: change layout for video items to fix bugs
-***
 ```
 git log
 ```
@@ -58,4 +46,16 @@ mkdir
 history
 ```
 `— все введенные когда-либо в терминал команды`
+***
+### Нейминг комитов:
+***
+1. **init:** - используется для начала проекта/таска
+>+ init: start youtube-task
+>+ init: start mentor-dashboard task
+2. **feat:** - это реализованная новая функциональность из технического задания (добавил поддержку зумирования, добавил footer, добавил карточку продукта).  
+>+	feat: add basic page layout
+>+  feat: implement search box 
+3. **fix:** - исправил ошибку в ранее реализованной функциональности. 
+>+ fix: implement correct loading data from youtube
+>+ fix: change layout for video items to fix bugs
 ***
